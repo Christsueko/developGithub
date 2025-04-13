@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="démo.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <form>
+        <section class="inscri">
+            <div class="parti">
+                <h1>Inscription</h1>
+
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" placeholder="Nom" id="nom" required>
+                </div>
+                <div>
+                    <label for="E-mail">Email:</label>
+                    <input type="text" placeholder="Exemple@gmail.com" id="E-mail" required>
+                </div>
+                <div>
+                    <label for="password">Mot de passe:</label>
+                    <input type="password" placeholder="Entrez mot de passe" id="password" required>
+                </div>
+                <div>
+                    <label for="phone">Téléphone:</label>
+                    <input type="number" placeholder="+243" id="phone" required>
+                </div>
+
+                <div class="sexe">
+                    <div>
+                        <label for="Homme">Homme</label>
+                        <input type="radio" name="sexe" id="Homme" required>
+                    </div>
+                    <div>
+                        <label for="Femme">Femme</label>
+                        <input type="radio" name="sexe" id="Femme" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="Age">Age:</label>
+                    <input type="number" placeholder="Votre âge" id="Age" required>
+                </div>
+                <div>
+                    <label id="pays">Pays:</label>
+                    <select name="pays" id="pays" aria-placeholder="Sélectionnez votre pays">
+                        <option></option>
+                        <option>Congo Brazzaville</option>
+                        <option>United state</option>
+                        <option>Canada</option>
+                        <option>Congo DR</option>
+                    </select>
+                </div>
+                <div class="connect">
+                    <div>
+                        <input type="submit" value="S'inscrire">
+                    </div>
+                    <div>
+                        <input type="reset" value="Annuler">
+                    </div>
+                </div>
+            </div>
+
+
+            <hr>
+
+
+            <div class="formule">
+                <h1>Connexion</h1>
+                <div>
+                    <input type="text" placeholder="E-mail">
+                </div>
+                <div>
+                    <input type="password" placeholder="Mot de passe">
+                </div>
+                <div>
+                    <input type="submit" value="Se connecter">
+                </div>
+                <P><a href="#">Mot de passe oublié?</a></P>
+            </div>
+
+        </section>
+    </form>
+
+</body>
+
+</html>

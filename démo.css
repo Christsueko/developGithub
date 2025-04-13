@@ -1,0 +1,102 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: rgb(78, 149, 215);
+     align-items: center;
+     justify-content: center;
+     display: flex;
+ }
+
+ form {
+     background-color: black;
+     margin-top: 20px;
+     width: 70vw;
+     /* display: flex; */
+     height: 95vh;
+     color: white;
+     text-align: center;
+     display: block;
+
+     h1 {
+         text-align: center;
+     }
+
+ }
+
+ .inscri {
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+ }
+
+ .inscri input {
+     width: 25vw;
+     padding: 5px;
+     margin-top: 5px;
+     display: block;
+     border-radius: 10px;
+ }
+
+ section {
+     /* display: flex; */
+     text-align: left;
+     padding: 5px;
+
+ }
+
+ hr {
+     font-size: 2px;
+     height: 85vh;
+ }
+
+ .parti {
+     padding: 40px;
+ }
+
+ .connect input {
+     width: 160px;
+ }
+
+ .connect {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .formule {
+     padding: 40px;
+
+     input {
+         height: 40px;
+     }
+
+     p a {
+         text-decoration: none;
+         color: white;
+     }
+
+     p {
+         text-align: center;
+     }
+ }
+
+ input[type="submit"] {
+     background-color: rgb(21, 144, 244);
+     color: white;
+     font-weight: bold;
+ }
+
+ .sexe {
+     text-align: center;
+     padding-top: 10px;
+
+ }
+
+ .inscri select {
+     height: 25px;
+     border-radius: 10px;
+     width: 100%;
+ }
